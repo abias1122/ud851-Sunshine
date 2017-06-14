@@ -22,7 +22,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     // COMPLETE (1) Create a field to store the weather display TextView
-    TextView weatherDisplay;
+    private TextView weatherDisplay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
